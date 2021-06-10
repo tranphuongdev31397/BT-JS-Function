@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Bài 1 -->
+      <h2>Chương trình Quản lý tuyển sinh</h2>
+      <div class="form-group">
+        <label for="">Nhập vào điểm chuẩn của kì thi</label>
+        <input type="text" name="" id="diemChuan" class="form-control" placeholder="Nhập vào điểm chuẩn" aria-describedby="helpId">
+        <label for="">Nhập vào điểm của thí sinh</label>
+        <input type="text" name="" id="diem1" class="form-control" placeholder="Nhập vào điểm 1" aria-describedby="helpId">
+        <input type="text" name="" id="diem2" class="form-control" placeholder="Nhập vào điểm 2" aria-describedby="helpId">      
+        <input type="text" name="" id="diem3" class="form-control" placeholder="Nhập vào điểm 3" aria-describedby="helpId">
+        <label for="">Đối tượng ưu tiên</label>
+        <select class="form-control" name="" id="diemDoiTuong">
+          <option selected disabled value="10">----Chọn----</option>
+          <option value="0">0</option>
+          <option value="1">3</option>
+          <option value="1.5">2</option>
+          <option value="2.5">1</option>
+        </select>
+        <label for="">Khu vực ưu tiên</label>
+        <select class="form-control" name="" id="diemKhuVuc">
+          <option selected disabled value = "10">----Chọn----</option>  
+          <option value="0">X</option>
+          <option value="0.5">C</option>
+          <option value="1">B</option>
+          <option value="2">A</option>
+        </select>
+        <button type="button" class="btn btn-primary" id="btnTinh">Xem</button>
+        <div id="ketQua" style="display:none"></div>
+      </div>
+
+<!-- Bài 2 -->
+<h2>Chương trình tính hóa đơn tiền điện</h2>
+<div class="form-group">
+  <label for="">Họ và tên của bạn</label>
+  <input type="text" name="" id="hoVaTen" class="form-control" placeholder="Điền vào họ tên của bạn" aria-describedby="helpId">
+  <label for="">Số Kw đã sử dụng</label>
+  <input type="text" name="" id="soKw" class="form-control" placeholder="Điền vào số kW đã sử dụng" aria-describedby="helpId">
+  <button type="button" class="btn btn-primary" id="btnTinhTien">Tính</button>
+  <div id="ketQuaB2" style="display:none"></div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
